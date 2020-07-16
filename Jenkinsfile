@@ -1,7 +1,7 @@
 pipeline {
 	agent any;
-	stages{
-		steps('Pulling Code'){
+	stages('Pulling Code'){
+		steps{
 			git 'https://github.com/rahulyerva/NodeJSApplication.git'
 	}
   }
